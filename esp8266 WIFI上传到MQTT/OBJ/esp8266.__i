@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I ..\HARDWARE\LED -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\STM32F10x_FWLib\inc -I ..\CORE -I ..\HARDWARE\KEY -I ..\HARDWARE\LED -I ..\HARDWARE\IIC -I ..\HARDWARE\DHT11 -I ..\HARDWARE\BEEP -I ..\HARDWARE\USART3 -I ..\HARDWARE\TIMER -I ..\HARDWARE\ESP8266
+-I"C:\Users\miachael_wxy\Desktop\C8T6\ESP8266\esp8266 WIFI上传到乐联网\USER\RTE"
+-ID:\MDK5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-ID:\MDK5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="521" -D_RTE_ -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\esp8266.o --omf_browse ..\obj\esp8266.crf --depend ..\obj\esp8266.d "..\HARDWARE\ESP8266\esp8266.c"
